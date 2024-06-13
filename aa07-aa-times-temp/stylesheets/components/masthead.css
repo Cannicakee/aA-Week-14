@@ -1,1 +1,56 @@
-/* Your code here */
+.masthead {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "menu-and-search . actions"
+  ". technologies ."
+  "date logo today";
+}
+
+.menu-and-search {
+  grid-area: menu-and-search;
+
+  display: flex;
+
+  padding-left: 20px;
+}
+
+.actions {
+  grid-area: actions;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  height: 50px;
+}
+
+.technologies {
+  grid-area: technologies;
+}
+
+.date {
+  grid-area: date;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.today {
+  grid-area: today;
+}
+
+.menu, .search {
+  font-size: 11px; 
+  padding: 7px 9px;
+
+  display: flex;
+  align-items: center;
+
+}
+
+.menu:hover, .search:hover {
+  background-color: #f7f7f5;
+}
+
