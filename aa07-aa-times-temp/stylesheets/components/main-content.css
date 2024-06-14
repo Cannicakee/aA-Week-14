@@ -1,1 +1,18 @@
-/* Your code here */
+.main-left {
+  grid-template-areas: 
+  'title title'
+  'story1 video'
+  'story2 story3';
+}
+
+.main-top{
+  grid-area: title;
+}
+
+.article {
+  grid-area: story1;
+}
+
+.main-video {
+  grid-area: video;
+}
