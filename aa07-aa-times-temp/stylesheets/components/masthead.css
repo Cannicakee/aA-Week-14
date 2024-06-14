@@ -61,3 +61,12 @@
   color: #f7f7f5;
   cursor: pointer;
 }
+
+.technos {
+  font-size: 10px;
+  color: darkgray;
+}
+
+.technos > span {
+  margin: 5px;
+}
