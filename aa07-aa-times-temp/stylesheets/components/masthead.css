@@ -56,3 +56,8 @@
 .search:hover {
   background-color: #f7f7f5;
 }
+
+.settings:hover {
+  color: #f7f7f5;
+  cursor: pointer;
+}
